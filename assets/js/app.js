@@ -59,6 +59,7 @@ var renderMain = function () {
 var generateMain = function (events) {
   // create container div
   var container = $(".container");
+  container.empty();
   // loop until currentHour reaches last event
   events.forEach((event) => {
     //    generate row in each iteration
@@ -99,6 +100,7 @@ var storeData = function (btn) {
     task = $(thisTask).val();
   } else {
     localStorage.setItem(id, task);
+    renderPage();
   }
 };
 
@@ -119,7 +121,6 @@ var generateRow = function (event) {
   task.addClass("col-8");
   console.log(task.class);
   var text = $("<textarea>");
-  text.attr("placeholder", "Add a task");
   text.val(event.task);
   text.addClass("text-holder");
   console.log(text.placeholder);
