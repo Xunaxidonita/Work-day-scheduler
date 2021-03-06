@@ -1,16 +1,16 @@
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   line-height: 1;
 }
 
-textarea{
+textarea {
   background: transparent;
   border: none;
   resize: none;
   color: #000000;
-  border-left: 1px solid black;
   padding: 10px;
+  width: 100%;
 }
 
 .jumbotron {
@@ -21,25 +21,34 @@ textarea{
   border-bottom: 10px solid black;
 }
 
-.description{
+.container {
+  max-width: 80%;
+}
+
+.description {
   white-space: pre-wrap;
 }
 
-.time-block{
+.time-block {
   text-align: center;
   border-radius: 15px;
+  align-items: center;
+  justify-content: center;
+  border-left: 1px solid black;
 }
 
 .row {
   white-space: pre-wrap;
   height: 80px;
-  border-top: 1px solid white;;
+  border-top: 1px solid white;
 }
 
 .hour {
   background-color: #ffffff;
   color: #000000;
   border-top: 1px dashed #000000;
+  /* min-width: 120px; */
+  text-align: right;
 }
 
 .past {
@@ -61,11 +70,27 @@ textarea{
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #06AED5;
+  background-color: #06aed5;
   color: white;
 }
 
 .saveBtn i:hover {
   font-size: 20px;
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.button {
+  background: transparent;
+  border: none;
+  width: 100%;
+  height: 100%;
+  /* width: 80px; */
+}
+
+button svg {
+  width: 20px;
+}
+
+.saveBtn img {
+  width: 30px;
 }
