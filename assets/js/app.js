@@ -34,7 +34,7 @@ var timeSlotFiller = function () {
 
 var renderHeader = function () {
   const today =
-    moment().format("dddd") + " " + moment().format("MMMM Do YYYY, h:mm a");
+    moment().format("dddd") + " " + moment().format("MMMM Do YYYY hh:mm A");
 
   console.log(today);
 

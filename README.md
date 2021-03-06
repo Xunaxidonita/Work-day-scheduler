@@ -20,4 +20,7 @@ https://xunaxidonita.github.io/Work-day-scheduler/.
 
 Made with ❤️ by Xunaxidonita
 
-## Screenshot
+## Screenshots
+
+[![screenshot-WDS1.png](https://i.postimg.cc/0yhHwTHG/screenshot-WDS1.png)](https://postimg.cc/dhmBMxFD)
+[![screenshot-WDS2.png](https://i.postimg.cc/LsdNXznN/screenshot-WDS2.png)](https://postimg.cc/nXkvS9KD)
